@@ -1,0 +1,67 @@
+*{  
+    margin: 0;  /* Remove a margem padrão de todos os elementos */
+    padding: 0;  /* Remove o preenchimento padrão de todos os elementos */
+}
+
+#pagina-home{
+    height: 720px;  /* Define a altura da seção */
+    
+    background: linear-gradient(rgba(17,17,15,0.404), rgba(34,30,4,0.685)), url(../imgs/Banner.png);
+    background-size: cover;  /* Faz com que a imagem de fundo cubra toda a seção */
+
+}
+
+.logo{
+    margin-top: 80px;
+    margin-left: 80px;
+
+
+}
+
+
+
+.menu-principal ul{  
+    list-style: none;  /* Remove os marcadores padrões de lista */
+}
+
+.menu-principal ul li {  
+    display: inline-block;  /* Faz com que cada item da lista se comporte como um bloco de linha */
+}
+
+.menu-principal ul li a {  
+    color: black;  /* Define a cor do texto como branca */
+    text-decoration: none;  /* Remove o sublinhado dos links */
+    text-transform: uppercase;  /* Converte o texto para maiúsculo */
+    font-size: 20px;
+    margin: 15px;
+    font-family: "Passero One", sans-serif;
+    /* 
+        lowercase = Converte tudo para minúsculo 
+        none = remove qualquer transformação 
+    */
+}
+
+.categoria{  
+    display: flex;  /* Habilita a função de flexbox para alinhamento */
+    align-items: center;  /* Alinha os itens no final do eixo vertical */
+    justify-content: space-between;  /* faz as escritas irem para o canto direito para cima, é uma conjunção do align-items*/
+}
+
+h1{  
+    font-size: 40px;  /* Define o tamanho da fonte como 70 pixels */
+    color: rgb(0, 0, 0);  /* Define a cor do texto como branca */
+    margin: 5px;  /* Define a margem externa do título */
+}
+
+.titulo{
+    text-align: center;
+    font-family: "Passero One", sans-serif;
+}
+
+.escritas{
+    font-size: 30px;
+    font-family: "Passero One", sans-serif;
+    margin: 30px;
+}
+
+  
